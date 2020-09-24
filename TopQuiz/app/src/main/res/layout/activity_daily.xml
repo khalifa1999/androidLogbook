@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daily"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/dpm"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:id="@+id/Organisme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:hint="Direction des Peches Maritimes"
+        android:textColorHint="@android:color/holo_red_light" />
+
+    <LinearLayout
+        android:layout_width="446dp"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="395dp"
+            android:layout_height="match_parent"
+            android:id="@+id/supprimer"
+            android:hint="Supprimer Trait"
+            android:gravity="center"
+
+          />
+
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollViewVertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ntrait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="numéro trait du jour" />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idjour"
+        android:hint="numéro jour en mer"
+        android:gravity="center"
+        />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:gravity="center"
+        android:hint="date"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heure"
+        android:gravity="center"
+        android:hint="heure"
+        />
+
+        <Spinner
+
+            android:id="@+id/virecalet"
+            android:autofillHints="@string/fab_transformation_sheet_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:targetApi="o" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/latitude"
+            android:hint="latitude"
+            /> <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/longitude"
+        android:hint="longitude"
+        /> <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/profondeur"
+        android:hint="profondeur"
+        />
+
+        <EditText
+            android:id="@+id/poids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="poids" />
+    </LinearLayout>
+</ScrollView>
+
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      android:layout_marginStart="160dp"
+      android:layout_marginEnd="160dp"
+      android:layout_marginTop="10dp"
+        android:id="@+id/valider"
+      android:hint="Validez"
+      android:textColorHint="@android:color/holo_red_dark"
+      />
+
+    </LinearLayout>

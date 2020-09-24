@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DPM</string>
+    <string name="password">password</string>
+    <string name="fab_transformation_sheet_behavior">fab_transformation_sheet_behavior</string>
+    <string name="editpassword">editpassword</string>
+    <string name="edit_password">edit_password</string>
+    <string name="dd_mm_yyyy_depart">DD/MM/YYYY--départ</string>
+    <string name="id_navire">id_navire</string>
+    <string name="nom_navire">nom_navire</string>
+    <string name="suivant">suivant</string>
+    <string name="heure_depart">00:00</string>
+    <string name="dd_mm_yyyy_arrivee">dd_mm_yyyy_arrivee</string>
+    <string name="dd_mm_yyyy_a">DD/MM/YYYY--Arrivee</string>
+    <string name="dd_mm_yyyy_d">dd_mm_yyyy_Depart</string>
+    <string name="depart">DD/MM/YYYY-Depart</string>
+    <string name="validez">Validez</string>
+    <string name="entrez_le_mot_de_passe">Entrez le mot de passe</string>
+    <string name="logo">logo</string>
+    <string name="position">Position</string>
+</resources>
